@@ -1,0 +1,36 @@
+.bio-container {
+    padding: 15px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Arial, sans-serif;
+}
+
+.bio-container h2 {
+    margin-bottom: 5px;
+}
+
+.bio-container .subtitle {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.portrait {
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+}
+
+.light .bio-container {
+    background-color: white;
+    color: black;
+}
+
+.dark .bio-container {
+    background-color: #111;
+    color: white;
+}
+
+.main .bio-container {
+    color: black;
+}
